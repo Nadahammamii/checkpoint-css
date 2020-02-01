@@ -1,0 +1,127 @@
+*{ margin: 0;}
+
+body {
+    background-image: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ),
+      linear-gradient(127deg, black, black 70.71%),
+      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    text-align: center;
+  
+    font-size: xx-large;
+    word-spacing: 10px;
+  }
+  a { text-decoration: none;
+color: white;
+}
+nav ul li {
+    
+    margin:0 20px  ;
+    margin-top: 20px;
+}
+ul { list-style-type: none;
+font-size: 30px;
+display: inline-flex;}
+#logoo {
+    justify-content: flex-start;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+nav {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+ color: white;
+font-size: 20px;}
+
+
+.box a:hover {
+     color: red;
+     transition: 0.5s;
+    }
+
+
+.bouton { 
+    display: inline-flex;
+}
+
+
+/* .btncourses1 
+{ 
+    position: relative;
+    top : 100px;
+    right : 300px;
+    display: none;
+}
+
+
+.btncourses2 { 
+    position: relative;
+    top : 100px;
+    display: none;
+
+}
+
+
+.btncourses3 
+{ 
+    position: relative;
+    top : 100px;
+    left : 300px;
+    display: none;
+
+}
+
+
+button:hover 
+{
+    color: teal;
+} */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+      position: relative;
+      left: 20px;
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .ligne1 {display: inline-flex;}
+button {
+    position: relative;
+    left: 20px;
+    
+}
